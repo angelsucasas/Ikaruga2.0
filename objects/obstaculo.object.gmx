@@ -7,7 +7,95 @@
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>  </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+//seteamos la direccion despues de la creacion ya que la asignacion es practicamente antes de frame 1 del "despegue" de la bala
+//genera bala en direccion diagonal con pendiente positiva(/) con sentido hacia abajo
+
+var balaB1=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB1.direction=point_direction(544,544,0,1144);
+
+//genera bala en direccion diagonal con pendiente positiva(/) con sentido hacia arriba
+
+var balaB2=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB2.direction=point_direction(544,544,1144,0);
+
+//genera balaen direccion diagonal con pendiente negativa (\) con sentido hacia abajo
+
+var balaB3=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB3.direction=point_direction(544,544,1144,1144);
+
+//genera balaen direccion diagonal con pendiente negativa (\) con sentido hacia arriba
+
+var balaB4=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB4.direction=point_direction(544,544,0,0);
+
+//genera bala con direccion vertical con sentido hacia arriba
+
+var balaB5=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB5.direction=point_direction(544,544,544,0);
+
+//genera bala con direccion vertical con sentido hacia abajo
+
+var balaB6=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB6.direction=point_direction(545,544,544,1152);
+
+//genera bala con direccion horizontal con sentido hacia la derecha
+var balaB7=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB7.direction=point_direction(544,544,1144,544);
+
+//genera bala con direccion horizontal con sentido hacia la izquierda
+
+var balaB8=instance_create(x+384,y+576,balaEnemigaBlanca);
+balaB8.direction=point_direction(544,544,0,544);
+
+instance_destroy();
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>

@@ -20,7 +20,7 @@
         <functionname>action_draw_health</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
@@ -33,15 +33,15 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>532</string>
+            <string>800</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>16</string>
+            <string>35</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -75,11 +75,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>600</string>
+            <string>700</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>130</string>
           </argument>
           <argument>
             <kind>4</kind>

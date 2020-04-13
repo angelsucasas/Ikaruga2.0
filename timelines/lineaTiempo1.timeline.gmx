@@ -21,7 +21,7 @@
             <kind>1</kind>
             <string>var enemigo1=instance_create(0,0,nave_enemiga);
 with(enemigo1){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
 }
 </string>
           </argument>
@@ -50,7 +50,7 @@ with(enemigo1){
             <kind>1</kind>
             <string>var enemigo7=instance_create(0,0,nave_enemiga);
 with(enemigo7){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
 }
 </string>
           </argument>
@@ -79,7 +79,7 @@ with(enemigo7){
             <kind>1</kind>
             <string>var enemigo8=instance_create(0,0,nave_enemiga);
 with(enemigo8){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
 }
 </string>
           </argument>
@@ -110,7 +110,7 @@ with(enemigo8){
 //path_start(caminoBajo,10,0,true);
 
 with(enemigo2){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
 }
 
 </string>
@@ -140,7 +140,7 @@ with(enemigo2){
             <kind>1</kind>
             <string>var enemigo3=instance_create(0,0,nave_enemiga);
 with(enemigo3){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
 }
 </string>
           </argument>
@@ -169,7 +169,7 @@ with(enemigo3){
             <kind>1</kind>
             <string>var enemigo4=instance_create(0,0,nave_enemiga);
 with(enemigo4){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
 }
 </string>
           </argument>
@@ -198,7 +198,7 @@ with(enemigo4){
             <kind>1</kind>
             <string>var enemigo5=instance_create(0,0,nave_enemiga);
 with(enemigo5){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
 }
 
 
@@ -229,7 +229,7 @@ with(enemigo5){
             <kind>1</kind>
             <string>var enemigo6=instance_create(0,0,nave_enemiga);
 with(enemigo6){
-    path_start(caminoBajo,10,0,true);
+    IniciarCamino();
     show_message("ultimo!")
 }
 

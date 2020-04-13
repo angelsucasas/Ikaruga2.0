@@ -52,6 +52,35 @@ direction=point_direction(x,y,x,y-760);
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
+//consigue el id del objeto, guardalo en un array, luego cada vez que choque con una bala, que se busque por su id en el array
+//y has una segundo array, en donde la misma posicion sera un contador, y si ese contador es igual a 3 destruye el objeto
+
+i=0;
+flag=0;
+//aqui buscamos el id del objeto con el cual choco la bala (un obstaculo) en el array
+while(array[i]){ 
+    if (array[i]==other.id){
+        //la bandera es para saber si un id ya esta en el array
+        flag=1;
+        break;
+    }else{
+    i+=1;
+    }
+}
+//conseguimos la posicion del id del obstaculo al que le disparamos
+//si el id no esta en el array, guarda el id en la ultima posicion
+if (!flag){
+    array[i]=other.id;
+}
+//y en esa misma posicion aumenta un contador
+contador[i]+=1;
+
+//activa una alarma para que en 1 segundos llames una alarma en obstaculo para que se elimine
+if (contador[i]&gt;=3){
+    other.alarm[1]=1*room_speed;
+}
+
+
 </string>
           </argument>
         </arguments>

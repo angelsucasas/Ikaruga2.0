@@ -51,8 +51,8 @@
   </views>
   <instances>
     <instance objName="nave" x="480" y="512" name="inst_38D1FF00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obstaculo" x="-224" y="-576" name="inst_3C98756D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obstaculo" x="672" y="-608" name="inst_27731A3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obstaculo" x="-320" y="-448" name="inst_3C98756D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obstaculo" x="768" y="0" name="inst_27731A3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="nave_enemiga" x="160" y="320" name="inst_9FFFF989" locked="0" code="path_start(caminoPrueba1,10,0,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlPuntos" x="448" y="32" name="inst_9580B602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlVida" x="448" y="96" name="inst_DB6FADFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -37,6 +37,68 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>globalvar array,contador;
+
+i = 19;
+repeat(20)
+   {
+   array[i] = 0;
+   i -= 1;
+   }
+   
+i=19;
+repeat(20){
+    contador[i]=0
+    i-=1;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//desde aqui creamos la nave, ya que no podemos ponerle la alarma a la nave misma,
+// ya que si la destruimos y despues ponemos la alarma
+//como la nave no esta en juego, todas las variales asociadas a ella se detienen,
+// por lo tanto, no puede llegar a la alarma si no hay una instancia de la nave actualmente en el juego
+
+instance_create(544,544,nave);
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
