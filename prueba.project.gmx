@@ -18,6 +18,8 @@
     <path>paths\caminoPrueba1</path>
     <path>paths\caminoBajo</path>
     <path>paths\ArribaAbajo</path>
+    <path>paths\senoidal</path>
+    <path>paths\senoidal2</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\IniciarCamino.gml</script>
