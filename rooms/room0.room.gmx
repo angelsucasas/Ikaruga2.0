@@ -13,6 +13,7 @@
   <code></code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
@@ -30,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background0" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -50,9 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="nave" x="480" y="512" name="inst_38D1FF00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obstaculo" x="-320" y="-448" name="inst_3C98756D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obstaculo" x="768" y="0" name="inst_27731A3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="nave" x="608" y="928" name="inst_38D1FF00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="nave_enemiga" x="160" y="320" name="inst_9FFFF989" locked="0" code="path_start(caminoPrueba1,10,0,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlPuntos" x="448" y="32" name="inst_9580B602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlVida" x="448" y="96" name="inst_DB6FADFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

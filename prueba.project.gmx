@@ -14,7 +14,9 @@
     <sprite>sprites\sprite6</sprite>
     <sprite>sprites\sprite7</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\caminoPrueba1</path>
     <path>paths\caminoBajo</path>
