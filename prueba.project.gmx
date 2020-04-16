@@ -59,6 +59,7 @@
     <timeline>timelines\seguimiento</timeline>
     <timeline>timelines\AcelerarIzquierda</timeline>
     <timeline>timelines\AcelerarDerecha</timeline>
+    <timeline>timelines\ReposicionarEscudo</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\inicializadormenu</room>

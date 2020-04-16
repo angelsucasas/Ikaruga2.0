@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
+show_message("escudo destruido");
 </string>
           </argument>
         </arguments>
@@ -89,5 +90,8 @@
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>402,575</point>
+    <point>566,566</point>
+  </PhysicsShapePoints>
 </object>
