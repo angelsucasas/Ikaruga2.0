@@ -34,7 +34,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="naveBlanca">
+    <event eventtype="4" ename="BlueShip">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -81,7 +81,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="nave">
+    <event eventtype="4" ename="RedShip">
       <action>
         <libid>1</libid>
         <id>603</id>
