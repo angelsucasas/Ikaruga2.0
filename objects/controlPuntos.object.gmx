@@ -118,7 +118,7 @@ repeat(20){
 //como la nave no esta en juego, todas las variales asociadas a ella se detienen,
 // por lo tanto, no puede llegar a la alarma si no hay una instancia de la nave actualmente en el juego
 
-instance_create(544,544,nave);
+instance_create(544,544,RedShip);
 </string>
           </argument>
         </arguments>
