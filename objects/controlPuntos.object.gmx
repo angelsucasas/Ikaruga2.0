@@ -47,7 +47,7 @@
         <exetype>1</exetype>
         <functionname>action_set_alarm</functionname>
         <codestring></codestring>
-        <whoName>nave_enemiga</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
