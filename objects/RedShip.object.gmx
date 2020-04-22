@@ -5,9 +5,62 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>naveJugadorPadre</parentName>
   <maskName>ShieldRed</maskName>
   <events>
+    <event eventtype="4" ename="balaEnemigaBlanca">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_destroy();
+
+controlPuntos.alarm[2]=5*room_speed;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="balaEnemiga">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//desde aqui creamos la nave, ya que no podemos ponerle la alarma a la nave misma,
+// ya que si la destruimos y despues ponemos la alarma
+//como la nave no esta en juego, todas las variales asociadas a ella se detienen,
+// por lo tanto, no puede llegar a la alarma si no hay una instancia de la nave actualmente en el juego
+
+instance_create(544,544,BlueShip);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="5" enumb="67">
       <action>
         <libid>1</libid>
@@ -206,6 +259,10 @@ if (instance_exists(nave_enemiga)){
             <string>if (!instance_exists(RedShield)){
     var escudo1=instance_create(x,y,RedShield);
     RedShield.alarm[0]=0.3333333333334*room_speed;
+        //hay que lograr que la nave no sea capaz de moverse mientras el escudo esta activo
+    frenarFlag=1;
+    RedShip.vspeed=0;
+    RedShip.hspeed=0;
 }
 </string>
           </argument>
@@ -253,7 +310,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,bala);
+            <string>var balaOtra=instance_create(x,y,balaRoja);
 
 </string>
           </argument>

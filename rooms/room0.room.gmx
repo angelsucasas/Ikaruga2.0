@@ -56,6 +56,7 @@
     <instance objName="controlVida" x="448" y="96" name="inst_DB6FADFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlAbsorverColor" x="448" y="160" name="inst_E8A60DD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlueShip" x="608" y="640" name="inst_EF10AD8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawnNivel1" x="1177" y="5" name="inst_66D10520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

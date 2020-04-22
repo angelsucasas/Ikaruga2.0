@@ -26,6 +26,12 @@
     <path>paths\ArribaAbajo</path>
     <path>paths\senoidal</path>
     <path>paths\senoidal2</path>
+    <path>paths\senoidalReversa</path>
+    <paths name="Estaticos">
+      <path>paths\Estatico1</path>
+      <path>paths\Estatico2</path>
+      <path>paths\Estatico3</path>
+    </paths>
   </paths>
   <scripts name="scripts">
     <scripts name="movimientoNave">
@@ -40,32 +46,78 @@
     </scripts>
     <scripts name="caminos">
       <script>scripts\IniciarCamino.gml</script>
+      <script>scripts\IniciarSenoidalReversa.gml</script>
+    </scripts>
+    <scripts name="explosiones">
+      <script>scripts\explotarRojo.gml</script>
+      <script>scripts\explotarAzul.gml</script>
+    </scripts>
+    <script>scripts\generadorNivel.gml</script>
+    <scripts name="Spawn">
+      <script>scripts\spawnGenerador.gml</script>
+      <script>scripts\spawnNaveJugadorReversa.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
-    <object>objects\BlueShip</object>
-    <object>objects\bala</object>
-    <object>objects\balaEnemiga</object>
-    <object>objects\balaEnemigaBlanca</object>
-    <object>objects\BlueShield</object>
-    <object>objects\controlAbsorverColor</object>
-    <object>objects\controlPuntos</object>
-    <object>objects\controlVida</object>
-    <object>objects\inicial</object>
-    <object>objects\nave_enemiga</object>
-    <object>objects\object11</object>
-    <object>objects\obstaculo</object>
-    <object>objects\RedShield</object>
-    <object>objects\RedShip</object>
+    <objects name="balas">
+      <object>objects\balaPadre</object>
+      <objects name="balaRoja">
+        <object>objects\balaRoja</object>
+        <object>objects\balaEnemiga</object>
+      </objects>
+      <objects name="balaAzul">
+        <object>objects\balaEnemigaBlanca</object>
+        <object>objects\bala</object>
+      </objects>
+    </objects>
+    <objects name="naveJugador">
+      <object>objects\BlueShip</object>
+      <object>objects\RedShip</object>
+      <object>objects\naveJugadorPadre</object>
+    </objects>
+    <objects name="escudos">
+      <object>objects\BlueShield</object>
+      <object>objects\RedShield</object>
+    </objects>
+    <objects name="naveEnemigas">
+      <objects name="naveEnemigaRoja">
+        <object>objects\NaveEnemigaRoja</object>
+      </objects>
+      <objects name="NaveEnemigaAzul">
+        <object>objects\NaveAzulEnemiga</object>
+        <object>objects\nave_enemiga</object>
+      </objects>
+      <object>objects\EnemigoPadre</object>
+    </objects>
+    <objects name="Obstaculo">
+      <object>objects\obstaculo</object>
+    </objects>
+    <objects name="controles">
+      <object>objects\PropiedadNave</object>
+      <object>objects\inicial</object>
+      <object>objects\controlVida</object>
+      <object>objects\controlPuntos</object>
+      <object>objects\controlAbsorverColor</object>
+    </objects>
+    <objects name="spawners">
+      <object>objects\spawnNivel1</object>
+    </objects>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\AcelerarDerecha</timeline>
-    <timeline>timelines\AcelerarIzquierda</timeline>
     <timeline>timelines\linea2</timeline>
     <timeline>timelines\lineaTiempo1</timeline>
     <timeline>timelines\ReposicionarEscudo</timeline>
     <timeline>timelines\seguimiento</timeline>
     <timeline>timelines\timeline2</timeline>
+    <timeline>timelines\nivelpiloto</timeline>
+    <timelines name="spawnFrecuencia">
+      <timeline>timelines\spwan5NaveEnemigo</timeline>
+      <timeline>timelines\spawn5NaveEnemigoReversa</timeline>
+    </timelines>
+    <timelines name="Acelerador">
+      <timeline>timelines\AcelerarDerecha</timeline>
+      <timeline>timelines\AcelerarIzquierda</timeline>
+    </timelines>
   </timelines>
   <rooms name="rooms">
     <room>rooms\inicializadormenu</room>
