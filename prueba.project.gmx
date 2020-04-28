@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprite14</sprite>
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
@@ -16,6 +17,9 @@
     <sprite>sprites\enemy_7</sprite>
     <sprite>sprites\ShieldRed</sprite>
     <sprite>sprites\ShieldBlue</sprite>
+    <sprite>sprites\Enemy_2</sprite>
+    <sprite>sprites\Enemy_Bombus</sprite>
+    <sprite>sprites\Enemy_Bombus_Purple</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -25,7 +29,16 @@
     <path>paths\caminoBajo</path>
     <path>paths\ArribaAbajo</path>
     <path>paths\senoidal</path>
+    <path>paths\path6</path>
     <path>paths\senoidal2</path>
+    <path>paths\Path_1</path>
+    <path>paths\Path_4</path>
+    <path>paths\Path_2</path>
+    <path>paths\Path_3</path>
+    <path>paths\Bombus_path_blue</path>
+    <path>paths\Bombus_path_purple</path>
+    <path>paths\Bombus_path2_blue</path>
+    <path>paths\Bombus_path2_purple</path>
   </paths>
   <scripts name="scripts">
     <scripts name="movimientoNave">
@@ -56,6 +69,14 @@
     <object>objects\controlAbsorverColor</object>
     <object>objects\RedShield</object>
     <object>objects\BlueShield</object>
+    <object>objects\Enemy_Purple</object>
+    <object>objects\Enemy_Timer</object>
+    <object>objects\Enemy_Purple_Spawn</object>
+    <object>objects\Bombus</object>
+    <object>objects\Bombus_Purple</object>
+    <object>objects\Bombus_Blue_Spawn</object>
+    <object>objects\Bombus_Purple_Spawn</object>
+    <object>objects\object21</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\lineaTiempo1</timeline>
@@ -64,6 +85,7 @@
     <timeline>timelines\seguimiento</timeline>
     <timeline>timelines\AcelerarIzquierda</timeline>
     <timeline>timelines\AcelerarDerecha</timeline>
+    <timeline>timelines\line1</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\inicializadormenu</room>

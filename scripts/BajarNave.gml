@@ -1,3 +1,3 @@
-if(vspeed<15){
+if(vspeed<=15){
     vspeed+=15;
 }

@@ -1,3 +1,3 @@
-if(hspeed<15){
+if(hspeed<=15){
     hspeed+=15;
 }
