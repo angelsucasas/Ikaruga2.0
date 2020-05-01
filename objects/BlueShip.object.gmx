@@ -132,8 +132,8 @@ controlPuntos.alarm[1]=5*room_speed;
 //busca al enemigo mas cercano y disparale
 //si dos enemigos estan a la misma distancia, disparale al mas cercano a la izquierda?
 
-if (instance_exists(nave_enemiga)){
-    var identificacion=instance_nearest(x,y,nave_enemiga);
+if (instance_exists(EnemigoPadre)){
+    var identificacion=instance_nearest(x,y,EnemigoPadre);
     balaDireccionada.direction=point_direction(x,y,identificacion.x,identificacion.y);
 }
 </string>
