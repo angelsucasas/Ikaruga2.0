@@ -53,6 +53,10 @@
       <paths name="loops">
         <path>paths\loop1</path>
         <path>paths\loop2</path>
+        <path>paths\loop4</path>
+        <path>paths\loop3Inverso</path>
+        <path>paths\loop3</path>
+        <path>paths\estatica</path>
       </paths>
     </paths>
   </paths>
@@ -165,6 +169,7 @@
       <timelines name="spawnFrecuencia">
         <timeline>timelines\spwan5NaveEnemigo</timeline>
         <timeline>timelines\spawn5NaveEnemigoReversa</timeline>
+        <timeline>timelines\timeline13</timeline>
       </timelines>
       <timeline>timelines\nivelpiloto</timeline>
       <timeline>timelines\ReposicionarEscudo</timeline>
@@ -176,6 +181,7 @@
       <timelines name="seguimientoC">
         <timeline>timelines\seguimiento</timeline>
       </timelines>
+      <timeline>timelines\finalizar_produccion180</timeline>
     </timelines>
   </timelines>
   <rooms name="rooms">

@@ -51,11 +51,10 @@
   </views>
   <instances>
     <instance objName="&lt;undefined&gt;" x="608" y="928" name="inst_38D1FF00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="nave_enemiga" x="160" y="320" name="inst_9FFFF989" locked="0" code="path_start(caminoPrueba1,10,0,false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlVida" x="448" y="96" name="inst_DB6FADFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlAbsorverColor" x="448" y="160" name="inst_E8A60DD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlueShip" x="608" y="640" name="inst_EF10AD8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spawnNivel1" x="1177" y="5" name="inst_66D10520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlueShip" x="355" y="487" name="inst_EF10AD8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawnNivel1" x="450" y="202" name="inst_66D10520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="controlPuntos" x="445" y="37" name="inst_30C9158A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Carolina" x="1045" y="1015" name="inst_C16DE4C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

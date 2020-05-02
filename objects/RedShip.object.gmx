@@ -36,27 +36,21 @@ controlPuntos.alarm[2]=5*room_speed;
     <event eventtype="4" ename="balaEnemiga">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
+        <id>721</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_health</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>0</relative>
+        <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>//desde aqui creamos la nave, ya que no podemos ponerle la alarma a la nave misma,
-// ya que si la destruimos y despues ponemos la alarma
-//como la nave no esta en juego, todas las variales asociadas a ella se detienen,
-// por lo tanto, no puede llegar a la alarma si no hay una instancia de la nave actualmente en el juego
-
-instance_create(544,544,BlueShip);
-</string>
+            <kind>0</kind>
+            <string>10</string>
           </argument>
         </arguments>
       </action>

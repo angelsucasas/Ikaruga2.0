@@ -11,100 +11,103 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>1800</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>3</string>
+            <kind>1</kind>
+            <string>var final1=272;
+var final2=272;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=loop4;
+generadorSegmento(final1,final2,nave_enemiga,rutaFinal,inicial_x,inicial_y);
+
+global.FlagEnemigosDestruidos=0;
+</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="2" enumb="11">
       <action>
         <libid>1</libid>
-        <id>301</id>
+        <id>305</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <functionname>action_timeline_set</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
+            <kind>14</kind>
+            <timeline>spawn5NaveEnemigoReversa</timeline>
+          </argument>
+          <argument>
             <kind>0</kind>
-            <string>900</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>4</string>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="2" enumb="10">
       <action>
         <libid>1</libid>
-        <id>301</id>
+        <id>305</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <functionname>action_timeline_set</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
+            <kind>14</kind>
+            <timeline>spwan5NaveEnemigo</timeline>
+          </argument>
+          <argument>
             <kind>0</kind>
-            <string>2800</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>5</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>3800</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>6</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="2" enumb="6">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -128,37 +131,28 @@ var inicial_y=0;
 
 var rutaFinal=loop2;
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>var final1=300;
-var final2=300;
-var rutaFinal=loop2;
-var inicial_x=50;
-var inicial_y=0;
+
+final1=800;
+final2=800;
+rutaFinal=loop2;
+inicial_x=50;
+inicial_y=0;
+
+generadorSegmento(final1,final2,Enemy_Purple,rutaFinal,inicial_x,inicial_y);
+
+final1=300;
+final2=300;
+rutaFinal=loop2;
+inicial_x=50;
+inicial_y=0;
 
 generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
 </string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="2" enumb="5">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -175,13 +169,120 @@ generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var final1=800;
+            <string>var final1=700;
 var final2=800;
-var rutaFinal=loop2;
 var inicial_x=50;
 var inicial_y=0;
 
+var rutaFinal=loop2;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+final1=800;
+final2=800;
+inicial_x=50;
+inicial_y=0;
+rutaFinal=loop2;
+
 generadorSegmento(final1,final2,Enemy_Purple,rutaFinal,inicial_x,inicial_y);
+
+final1=300;
+final2=300;
+inicial_x=50;
+inicial_y=0;
+rutaFinal=loop2;
+
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+//genera 10 bombus en parejas de colores
+//y recuerda setear la bandera a 0 al final
+
+var final1=210;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=260;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+var final1=360;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=410;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+var final1=772;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=822;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+var final1=1050;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=1100;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+
 </string>
           </argument>
         </arguments>
@@ -202,111 +303,35 @@ generadorSegmento(final1,final2,Enemy_Purple,rutaFinal,inicial_x,inicial_y);
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>500</string>
+            <string>180</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>1</string>
+            <string>11</string>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="2" enumb="5">
       <action>
         <libid>1</libid>
-        <id>305</id>
+        <id>301</id>
         <kind>0</kind>
-        <userelative>0</userelative>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_timeline_set</functionname>
+        <functionname>action_set_alarm</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>14</kind>
-            <timeline>spwan5NaveEnemigo</timeline>
-          </argument>
-          <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>335</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>305</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_timeline_set</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>14</kind>
-            <timeline>spawn5NaveEnemigoReversa</timeline>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="4">
-      <action>
-        <libid>1</libid>
-        <id>305</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_timeline_set</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>14</kind>
-            <timeline>spwan5NaveEnemigo</timeline>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -314,6 +339,122 @@ generadorSegmento(final1,final2,Enemy_Purple,rutaFinal,inicial_x,inicial_y);
     <event eventtype="2" enumb="3">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+//genera 10 bombus en parejas de colores
+//y recuerda setear la bandera a 0 al final
+
+var final1=210;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=290;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+var final1=360;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=450;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+var final1=772;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=852;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+var final1=1050;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=1120;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=estatica;
+generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+
+global.FlagEnemigosDestruidos=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>180</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>11</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>305</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -328,7 +469,7 @@ generadorSegmento(final1,final2,Enemy_Purple,rutaFinal,inicial_x,inicial_y);
         <arguments>
           <argument>
             <kind>14</kind>
-            <timeline>spawn5NaveEnemigoReversa</timeline>
+            <timeline>spwan5NaveEnemigo</timeline>
           </argument>
           <argument>
             <kind>0</kind>
@@ -362,6 +503,40 @@ generadorSegmento(final1,final2,Enemy_Purple,rutaFinal,inicial_x,inicial_y);
         <arguments>
           <argument>
             <kind>14</kind>
+            <timeline>spawn5NaveEnemigoReversa</timeline>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>305</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_timeline_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>14</kind>
             <timeline>spwan5NaveEnemigo</timeline>
           </argument>
           <argument>
@@ -375,6 +550,42 @@ generadorSegmento(final1,final2,Enemy_Purple,rutaFinal,inicial_x,inicial_y);
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+ //en el evento de pasos, verifica si ya no hay mas enemigos disponibles
+ //y en tal caso, llama a una alarma desde ese paso
+ // para llevar el control de las alarmas usa una var global
+
+ //ControlNivelAlarma, es un contador que nos diceque alarma va activar, de esa manera una ola no se realizara 
+ //hasta que destruyas todos los enemigos que estan en la sala
+// global.ControlNivelAlarma
+
+if(!instance_exists(EnemigoPadre) &amp;&amp; (global.FlagEnemigosDestruidos==0)){
+    alarm[global.ControlNivelAlarma]=1*room_speed;
+    global.FlagEnemigosDestruidos=1;
+    global.ControlNivelAlarma+=1;
+}
+</string>
           </argument>
         </arguments>
       </action>
