@@ -3,3 +3,6 @@
 version beta  0.1
 
 proyecto en conjunto de: "El español y amigos" 
+
+//edicion prueba codeowners
+
