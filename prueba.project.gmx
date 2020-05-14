@@ -96,6 +96,8 @@
       <scripts name="crud ruta asignada">
         <script>scripts\guardarRutaAsignada.gml</script>
         <script>scripts\CargarRutaAsignada.gml</script>
+        <script>scripts\guardarVelocidadAsignada.gml</script>
+        <script>scripts\cargarvelocidadAsignada.gml</script>
       </scripts>
       <script>scripts\globalscript.gml</script>
     </scripts>

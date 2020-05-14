@@ -8,6 +8,7 @@ var pos_y_inicial=argument5;
 
 var pos_x_final=argument0;
 var pos_y_final=argument1;
+var velocidad= argument6;
 
 var camino=path_add();
     path_add_point(camino,pos_x_inicial,pos_y_inicial,30);
@@ -25,8 +26,10 @@ var camino=path_add();
         guardarRutaAsignada(naveprueba,argument3);
         //EnemigoPadre.alarm[11]=0;
         
+        guardarVelocidadAsignada(naveprueba,argument7);
         
-        path_start(camino,50,1,false);    
+        
+        path_start(camino,velocidad,1,false);    
         timeline_index=verificadorFinalCamino;
         timeline_position=0;
         timeline_running=true;

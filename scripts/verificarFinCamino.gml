@@ -17,7 +17,8 @@ if ((path_position>=0.45) && (!localflag)){
 //que al momento de llamar a la funcion generador segmento con sus 4 parametros, guarda el camino que enviaron como parametro
 //y asignaselo a la instancia del objeto que te acaban de pasar y guardalo para que se pueda cargar desde un script
     var rutaFinal= CargarRutaAsignada(id);
-    path_start(rutaFinal,20,2,false);
+    var velocidadFinal= cargarvelocidadAsignada(id);
+    path_start(rutaFinal,velocidadFinal,2,false);
     localflag=1;
     timeline_running = false
 }
