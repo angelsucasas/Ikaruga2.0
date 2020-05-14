@@ -1,1 +1,1 @@
-path_start(senoidalReversa,10,3,true);
+path_start(senoidalReversa,60,3,true);

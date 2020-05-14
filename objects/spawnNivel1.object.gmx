@@ -25,6 +25,96 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>
+//genera 10 bombus en parejas de colores
+//y recuerda setear la bandera a 0 al final
+
+var final1=210;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal=loopBombus;
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=310;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+var rutaFinal2=loopBombuslow
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
+
+var final1=360;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=470;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
+
+var final1=772;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=872;
+var final2=259;
+var inicial_x=50;
+var inicial_y=0;
+
+
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
+
+var final1=1050;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+
+generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
+
+var final1=1140;
+var final2=522;
+var inicial_x=50;
+var inicial_y=0;
+
+
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
+
+
+global.FlagEnemigosDestruidos=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>var final1=272;
 var final2=272;
 var inicial_x=50;
@@ -223,7 +313,7 @@ var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+var rutaFinal=loopBombus;
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=260;
@@ -231,7 +321,7 @@ var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
 
 var final1=360;
@@ -239,7 +329,7 @@ var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=410;
@@ -247,7 +337,7 @@ var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
 
 var final1=772;
@@ -255,7 +345,7 @@ var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=822;
@@ -263,7 +353,7 @@ var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
 
 var final1=1050;
@@ -271,7 +361,7 @@ var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=1100;
@@ -279,7 +369,7 @@ var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
 
 
@@ -362,7 +452,7 @@ var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+var rutaFinal=loopBombus;
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=290;
@@ -370,15 +460,15 @@ var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
-generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+var rutaFianl2=loopBombuslow
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
 
 var final1=360;
 var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=450;
@@ -386,15 +476,15 @@ var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
-generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
 
 var final1=772;
 var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=852;
@@ -402,15 +492,15 @@ var final2=259;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
-generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
 
 var final1=1050;
 var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
+
 generadorSegmento(final1,final2,Bombus_Purple,rutaFinal,inicial_x,inicial_y);
 
 var final1=1120;
@@ -418,8 +508,8 @@ var final2=522;
 var inicial_x=50;
 var inicial_y=0;
 
-var rutaFinal=estatica;
-generadorSegmento(final1,final2,Bombus,rutaFinal,inicial_x,inicial_y);
+
+generadorSegmento(final1,final2,Bombus,rutaFinal2,inicial_x,inicial_y);
 
 
 global.FlagEnemigosDestruidos=0;

@@ -26,8 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>if (instance_exists(naveJugadorPadre)){
-    if (EnemigoPadre.x+50&gt;naveJugadorPadre.x)&amp;&amp;(naveJugadorPadre.x&gt;EnemigoPadre.x-50){
-        instance_create(EnemigoPadre.x,EnemigoPadre.y,balaEnemiga);
+    if (EnemigoPadre.x+50&gt;naveJugadorPadre.x)&amp;&amp;(naveJugadorPadre.x&gt;EnemigoPadre.x-50) {
+        if(instance_exists(BalasEnemigas)){
+            if (balasEnemigas.x&gt;EnemigoPadre.x+50) &amp;&amp; (balasEnemigas.x&lt;EnemigoPadre.x-50){
+                show_message(EnemigosPadre.x);
+                instance_create(EnemigoPadre.x,EnemigoPadre.y,balaEnemiga);
+            }
+        }
     }
 }
 </string>

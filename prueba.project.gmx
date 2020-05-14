@@ -57,6 +57,8 @@
         <path>paths\loop3Inverso</path>
         <path>paths\loop3</path>
         <path>paths\estatica</path>
+        <path>paths\loopBombus</path>
+        <path>paths\loopBombuslow</path>
       </paths>
     </paths>
   </paths>
@@ -109,6 +111,7 @@
         <object>objects\balaEnemigaBlanca</object>
         <object>objects\bala</object>
       </objects>
+      <object>objects\balasEnemigas</object>
     </objects>
     <objects name="naveJugador">
       <object>objects\BlueShip</object>
