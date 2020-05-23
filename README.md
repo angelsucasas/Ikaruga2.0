@@ -1,4 +1,4 @@
-# Ecommerce Buhocenter ![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/vue-vXYZ-red) ![npm](https://img.shields.io/badge/version-1.0-blue)
+# Ecommerce Buhocenter ![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/vue-vXYZ-red) ![npm](https://img.shields.io/badge/version-1.0-blue)![npm](https://img.shields.io/badge/postgresql-v.11-12-blue)
 
 ![Logo-completo](https://user-images.githubusercontent.com/44983658/82739421-64d46c00-9d0d-11ea-87ea-c8c1d27f2a21.png)
 
