@@ -1,6 +1,5 @@
-# Ecommerce Buhocenter
+# Ecommerce Buhocenter ![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/vue-vXYZ-red) ![npm](https://img.shields.io/badge/version-1.0-blue)
 
-![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/vue-vXYZ-red) ![npm](https://img.shields.io/badge/version-1.0-blue)
 ![Logo-completo](https://user-images.githubusercontent.com/44983658/82739421-64d46c00-9d0d-11ea-87ea-c8c1d27f2a21.png)
 ----------------------
 Primera fase. version 1.0
@@ -102,6 +101,6 @@ Tambien usamos firebase para guardar cierta informacion del usuario
 ---------------------------
 ## MIT © 
 [Angel Sucasas](mailto:angel.alejandro.sucasas08@gmail.com)
-[Andrea Da Silva]
-[Gabriel Ortega]
+[Andrea Da Silva](mailto:angel.alejandro.sucasas08@gmail.com)
+[Gabriel Ortega](mailto:angel.alejandro.sucasas08@gmail.com)
 
