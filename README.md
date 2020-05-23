@@ -17,9 +17,9 @@
 
  Como cliente de Buhocenter podras:
  
-   *Hacer login tradicional o federado (gmail y facebook).
-   *Administrar tu perfil de usuario
-   *Registrar direcciones dentro de EU para que recibas tus compras
+ 1. Hacer login tradicional o federado (gmail y facebook).
+ 2. Administrar tu perfil de usuario
+ 3. Registrar direcciones dentro de EU para que recibas tus compras
    *Administrar tus direcciones.
    *Buscar miles de productos y servicios
    *Buscar productos o servicios por catalogos
@@ -96,7 +96,7 @@ Tambien usamos firebase para guardar cierta informacion del usuario
 
 ---------------------------
 ## MIT © 
-[Angel Sucasas](mailto:angel.alejandro.sucasas08@gmail.com)
-[Andrea Da Silva](mailto:angel.alejandro.sucasas08@gmail.com)
-[Gabriel Ortega](mailto:angel.alejandro.sucasas08@gmail.com)
+:shipit: [Angel Sucasas](mailto:angel.alejandro.sucasas08@gmail.com)
+:shipit: [Andrea Da Silva](mailto:angel.alejandro.sucasas08@gmail.com)
+:shipit: [Gabriel Ortega](mailto:angel.alejandro.sucasas08@gmail.com)
 
