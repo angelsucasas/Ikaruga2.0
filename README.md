@@ -20,22 +20,22 @@
  1. Hacer login tradicional o federado (gmail y facebook).
  2. Administrar tu perfil de usuario
  3. Registrar direcciones dentro de EU para que recibas tus compras
-   *Administrar tus direcciones.
-   *Buscar miles de productos y servicios
-   *Buscar productos o servicios por catalogos
-   *Buscar catalogos por categorias
-   *seleccionar el idioma en que quieres ver el contenido de buhocenter
-   *Agregar productos a tu carrito
-   *comprar los productos/servicios en tu carrito pagando con cryptomonedas.
-   *recibir correos de bienvenida, tambien al completar una transaccion con exito.
-   *recibir correos con nuevas ofertas y descuentos.
+ 4. Administrar tus direcciones.
+ 5. Buscar miles de productos y servicios
+ 6. Buscar productos o servicios por catalogos
+ 7. Buscar catalogos por categorias
+ 8. seleccionar el idioma en que quieres ver el contenido de buhocenter
+ 9. Agregar productos a tu carrito
+ 10. comprar los productos/servicios en tu carrito pagando con cryptomonedas.
+ 11. recibir correos de bienvenida, tambien al completar una transaccion con exito.
+ 12. recibir correos con nuevas ofertas y descuentos.
    
 Como parte de nuestro equipo de administradores podras:
    
-   *Gestionar usuarios.
-   *agregar productos/servicios.
-   *gestionar productos/servicios.
-   *Definir el minimo de un producto en inventario
+ 1. Gestionar usuarios.
+ 2. agregar productos/servicios.
+ 3. gestionar productos/servicios.
+ 4. Definir el minimo de un producto en inventario
    
 
 ## imagenes de buhocenter
