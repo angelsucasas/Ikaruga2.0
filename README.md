@@ -1,10 +1,86 @@
-# Ikaruga2.0
+# Ecommerce Buhocenter
 
 ![npm](https://img.shields.io/badge/prueba1-prueba2-red)
+![Logo-completo](https://user-images.githubusercontent.com/44983658/82739421-64d46c00-9d0d-11ea-87ea-c8c1d27f2a21.png)
 
-version beta  0.1
+Primera fase. version 1.0
+-----------
+##Find everything, buy anything
 
-proyecto en conjunto de: "El español y amigos" 
+ Buhocenter es un nuevo comercio electronico que permite el pago con cryptomonedas. miles de productos al alcance de un click, encuentra el producto de tu necesidad en nuestros catalogos, te sientes perdido? no te proecupes! con nuestras categorias podras encontrar lo que necesites, desde tecnologia, hasta literatura!.
+ 
+ ##detalles
+ 
+  buhocenter esta hecho en nestjs en el backend y vuejs en el frontend, para la BD se usa postgresql.
+  
+ ------------
+ 
+##features
+
+ Como cliente de Buhocenter podras:
+ 
+   Hacer login tradicional o federado (gmail y facebook).
+   Administrar tu perfil de usuario
+   Registrar direcciones dentro de EU para que recibas tus compras
+   Administrar tus direcciones.
+   Buscar miles de productos y servicios
+   Buscar productos o servicios por catalogos
+   Buscar catalogos por categorias
+   seleccionar el idioma en que quieres ver el contenido de buhocenter
+   Agregar productos a tu carrito
+   comprar los productos/servicios en tu carrito pagando con cryptomonedas.
+   recibir correos de bienvenida, tambien al completar una transaccion con exito.
+   recibir correos con nuevas ofertas y descuentos.
+   
+Como parte de nuestro equipo de administradores podras:
+   
+   Gestionar usuarios.
+   agregar productos/servicios.
+   gestionar productos/servicios.
+   Definir el minimo de un producto en inventario
+   
+-------------------------
+
+## imagenes de buhocenter
+
+
+
+## instalacion y setup
+
+clonar develop. Luego en  buhocenter backend:
+ ```bash
+ $ npm install
+ ```
+llenar el archivo .env (asegurar que la sinchronizacion este activa para que se creen las entidades automaticamente en postgresql):
+
+```bash
+ $ npm run start:dev
+ ```
+ llenar la BD con los inserts que se encuentran [aqui](https://github.com/PandiyanCool/angular-clipboard-auto)
+
+Ya finalizamos con la instalacion de backend! ahora vamos con fronend.
+
+En buhocenter frontend:
+
+ ```bash
+ $ npm install
+ ```
+ y finalmente corremos el servidor:
+ 
+ ```bash
+ $ npm run serve
+ ```
+ 
+ y listo! si vamos a localhost:8080/home ya veremos la pagina inicial de buhocenter!
+
+-------------------------
+
+##ejemplos
+
+
+
+
+---------------------------
 
 ```bash
 $ npm run build
@@ -18,7 +94,7 @@ Features
 
 should contain a minimal example of use (perhaps as little as one line of code; skip the unusual use cases or anything not needed by most users); the DESCRIPTION should describe your module in broad terms, generally in just a few paragraphs; more detail of the module's routines or methods, lengthy code examples, or other in-depth material should be given in subsequent sections.
 
-Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting "page down". As your reader continues through the document, they should receive a progressively greater amount of knowledge. -- from perlmodstyle
+
 
 tell them what it is (with context)
 show them what it looks like in action
