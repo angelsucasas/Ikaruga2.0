@@ -6,7 +6,7 @@
 
 ## Find everything, buy anything
 
- Buhocenter es un nuevo comercio electronico que permite el pago con cryptomonedas. miles de productos al alcance de un click, encuentra el producto de tu necesidad en nuestros catalogos, te sientes perdido? no te proecupes! con nuestras categorias podras encontrar lo que necesites, desde tecnologia, hasta literatura!.
+ Buhocenter es un nuevo comercio electronico que permite el pago con cryptomonedas. miles de productos al alcance de un click, encuentra el producto de tu necesidad en nuestros catalogos, te sientes perdido? no te proecupes! con nuestras categorias podras encontrar lo que necesites, desde tecnologia, hasta productos del hogar!.
  
  ## detalles
  
@@ -48,6 +48,11 @@ Como parte de nuestro equipo de administradores podras:
 
 ![buho 4](https://user-images.githubusercontent.com/44983658/82739518-31dea800-9d0e-11ea-9857-599181fa434c.PNG)
 
+
+## archvivo .env
+
+[este] es el formato del archivo .env , en el se declararan variables de entorno necesarias para la ejecuacion de
+la aplicacion. Por lo tanto, es de vital importancia llenarla antes de pasar a la instalacion
 
 ## instalacion y setup
 
