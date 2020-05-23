@@ -17,25 +17,25 @@
 
  Como cliente de Buhocenter podras:
  
-   -Hacer login tradicional o federado (gmail y facebook).
-   -Administrar tu perfil de usuario
-   -Registrar direcciones dentro de EU para que recibas tus compras
-   -Administrar tus direcciones.
-   -Buscar miles de productos y servicios
-   -Buscar productos o servicios por catalogos
-   -Buscar catalogos por categorias
-   -seleccionar el idioma en que quieres ver el contenido de buhocenter
-   -Agregar productos a tu carrito
-   -comprar los productos/servicios en tu carrito pagando con cryptomonedas.
-   -recibir correos de bienvenida, tambien al completar una transaccion con exito.
-   -recibir correos con nuevas ofertas y descuentos.
+   *Hacer login tradicional o federado (gmail y facebook).
+   *Administrar tu perfil de usuario
+   *Registrar direcciones dentro de EU para que recibas tus compras
+   *Administrar tus direcciones.
+   *Buscar miles de productos y servicios
+   *Buscar productos o servicios por catalogos
+   *Buscar catalogos por categorias
+   *seleccionar el idioma en que quieres ver el contenido de buhocenter
+   *Agregar productos a tu carrito
+   *comprar los productos/servicios en tu carrito pagando con cryptomonedas.
+   *recibir correos de bienvenida, tambien al completar una transaccion con exito.
+   *recibir correos con nuevas ofertas y descuentos.
    
 Como parte de nuestro equipo de administradores podras:
    
-   -Gestionar usuarios.
-   -agregar productos/servicios.
-   -gestionar productos/servicios.
-   -Definir el minimo de un producto en inventario
+   *Gestionar usuarios.
+   *agregar productos/servicios.
+   *gestionar productos/servicios.
+   *Definir el minimo de un producto en inventario
    
 
 ## imagenes de buhocenter
