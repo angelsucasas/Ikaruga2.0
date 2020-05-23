@@ -6,6 +6,11 @@ version beta  0.1
 
 proyecto en conjunto de: "El español y amigos" 
 
+```bash
+$ npm run build
+```
+MIT © [Pandiyan](mailto:angel.alejandro.sucasas08@gmail.com)
+
 introduccion de ultimo 
 //edicion prueba codeowners
 SYNOPSIS 
