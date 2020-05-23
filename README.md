@@ -2,8 +2,9 @@
 https://img.shields.io/badge/prueba1-prueba2-red
 https://img.shields.io/badge/prueba2-prueba-green
 
+-----
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="20"><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="104" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="55" height="20" fill="#555"/><rect x="55" width="49" height="20" fill="#97ca00"/><rect width="104" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="450">prueba2</text><text x="285" y="140" transform="scale(.1)" textLength="450">prueba2</text><text x="785" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="390">prueba</text><text x="785" y="140" transform="scale(.1)" textLength="390">prueba</text></g></svg>
-
+------
 version beta  0.1
 
 proyecto en conjunto de: "El español y amigos" 
