@@ -1,21 +1,21 @@
 # Ecommerce Buhocenter
 
-![npm](https://img.shields.io/badge/prueba1-prueba2-red)
+![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/vue-vXYZ-red) ![npm](https://img.shields.io/badge/version-1.0-blue)
 ![Logo-completo](https://user-images.githubusercontent.com/44983658/82739421-64d46c00-9d0d-11ea-87ea-c8c1d27f2a21.png)
-
+----------------------
 Primera fase. version 1.0
 -----------
-##Find everything, buy anything
+## Find everything, buy anything
 
  Buhocenter es un nuevo comercio electronico que permite el pago con cryptomonedas. miles de productos al alcance de un click, encuentra el producto de tu necesidad en nuestros catalogos, te sientes perdido? no te proecupes! con nuestras categorias podras encontrar lo que necesites, desde tecnologia, hasta literatura!.
  
- ##detalles
+ ## detalles
  
   buhocenter esta hecho en nestjs en el backend y vuejs en el frontend, para la BD se usa postgresql.
   
  ------------
  
-##features
+## features
 
  Como cliente de Buhocenter podras:
  
@@ -43,9 +43,19 @@ Como parte de nuestro equipo de administradores podras:
 
 ## imagenes de buhocenter
 
+![buho 1](https://user-images.githubusercontent.com/44983658/82739440-82a1d100-9d0d-11ea-8522-e10486e998d4.PNG)
 
+![buho 2](https://user-images.githubusercontent.com/44983658/82739498-065bbd80-9d0e-11ea-806b-8fb17892fc1d.PNG)
+
+![buho 3](https://user-images.githubusercontent.com/44983658/82739510-1d9aab00-9d0e-11ea-9b4d-efb41561c9e0.PNG)
+
+![buho 4](https://user-images.githubusercontent.com/44983658/82739518-31dea800-9d0e-11ea-9857-599181fa434c.PNG)
+
+---------------------------
 
 ## instalacion y setup
+
+primero que nada necesitas [npm](https://npmjs.org) y [node.js](https://nodejs.org/es/)
 
 clonar develop. Luego en  buhocenter backend:
  ```bash
@@ -71,60 +81,27 @@ En buhocenter frontend:
  $ npm run serve
  ```
  
- y listo! si vamos a localhost:8080/home ya veremos la pagina inicial de buhocenter!
+ y listo! si vamos a [localhost:8080/home] ya veremos la pagina inicial de buhocenter!
 
 -------------------------
 
-##ejemplos
+## API
 
+para validar las direcciones se usa el API de SmartyStreets.
 
+![smartystreets](https://user-images.githubusercontent.com/44983658/82739607-bcbfa280-9d0e-11ea-8c74-cc5102c479a2.png)
 
+la pasarela de pago que se encarga de las transacciones es utrust.
+
+![utrust](https://user-images.githubusercontent.com/44983658/82739619-dbbe3480-9d0e-11ea-980c-a043ec5ec2e0.jpg)
+
+Tambien usamos firebase para guardar cierta informacion del usuario
+
+![firebase](https://user-images.githubusercontent.com/44983658/82739665-69018900-9d0f-11ea-8317-5678d71a384e.png)
 
 ---------------------------
+## MIT © 
+[Angel Sucasas](mailto:angel.alejandro.sucasas08@gmail.com)
+[Andrea Da Silva]
+[Gabriel Ortega]
 
-```bash
-$ npm run build
-```
-MIT © [Pandiyan](mailto:angel.alejandro.sucasas08@gmail.com)
-
-introduccion de ultimo 
-//edicion prueba codeowners
-SYNOPSIS 
-Features
-
-should contain a minimal example of use (perhaps as little as one line of code; skip the unusual use cases or anything not needed by most users); the DESCRIPTION should describe your module in broad terms, generally in just a few paragraphs; more detail of the module's routines or methods, lengthy code examples, or other in-depth material should be given in subsequent sections.
-
-
-
-tell them what it is (with context)
-show them what it looks like in action
-show them how they use it
-tell them any other relevant details
-Contributor list - List the humans behind the project
-
-Name -- self-explanatory names are best. collide-2d-aabb-aabb sounds promising, though it assumes I know what an "aabb" is. If the name sounds too vague or unrelated, it may be a signal to move on.
-
-One-liner -- having a one-liner that describes the module is useful for getting an idea of what the module does in slightly greater detail. collide-2d-aabb-aabb says it
-
-Determines whether a moving axis-aligned bounding box (AABB) collides with other AABBs.
-
-Awesome: it defines what an AABB is, and what the module does. Now to gauge how well it'd fit into my code:
-
-Usage -- rather than starting to delve into the API docs, it'd be great to see what the module looks like in action. I can quickly determine whether the example JS fits the desired style and problem. People have lots of opinions on things like promises/callbacks and ES6. If it does fit the bill, then I can proceed to greater detail.
-
-API -- the name, description, and usage of this module all sound appealing to me. I'm very likely to use this module at this point. I just need to scan the API to make sure it does exactly what I need and that it will integrate easily into my codebase. The API section ought to detail the module's objects and functions, their signatures, return types, callbacks, and events in detail. Types should be included where they aren't obvious. Caveats should be made clear.
-
-Installation -- if I've read this far down, then I'm sold on trying out the module. If there are nonstandard installation notes, here's where they'd go, but even if it's just a regular npm install, I'd like to see that mentioned, too. New users start using Node all the time, so having a link to npmjs.org and an install command provides them the resources to figure out how Node modules work.
-
-License -- most modules put this at the very bottom, but this might actually be better to have higher up; you're likely to exclude a module VERY quickly if it has a license incompatible with your work. I generally stick to the MIT/BSD/X11/ISC flavours. If you have a non-permissive license, stick it at the very top of the module to prevent any confusion.
-
- One-liner explaining the purpose of the module
- Necessary background context & links
- Potentially unfamiliar terms link to informative sources
- Clear, runnable example of usage
- Installation instructions
- Extensive API documentation
- Performs cognitive funneling
- Caveats and limitations mentioned up-front
- Doesn't rely on images to relay critical information
- License
