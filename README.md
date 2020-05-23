@@ -1,9 +1,9 @@
 # Ecommerce Buhocenter ![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/vue-vXYZ-red) ![npm](https://img.shields.io/badge/version-1.0-blue)
 
 ![Logo-completo](https://user-images.githubusercontent.com/44983658/82739421-64d46c00-9d0d-11ea-87ea-c8c1d27f2a21.png)
-----------------------
-Primera fase. version 1.0
------------
+
+## Primera fase. version 1.0
+
 ## Find everything, buy anything
 
  Buhocenter es un nuevo comercio electronico que permite el pago con cryptomonedas. miles de productos al alcance de un click, encuentra el producto de tu necesidad en nuestros catalogos, te sientes perdido? no te proecupes! con nuestras categorias podras encontrar lo que necesites, desde tecnologia, hasta literatura!.
@@ -12,33 +12,31 @@ Primera fase. version 1.0
  
   buhocenter esta hecho en nestjs en el backend y vuejs en el frontend, para la BD se usa postgresql.
   
- ------------
  
 ## features
 
  Como cliente de Buhocenter podras:
  
-   Hacer login tradicional o federado (gmail y facebook).
-   Administrar tu perfil de usuario
-   Registrar direcciones dentro de EU para que recibas tus compras
-   Administrar tus direcciones.
-   Buscar miles de productos y servicios
-   Buscar productos o servicios por catalogos
-   Buscar catalogos por categorias
-   seleccionar el idioma en que quieres ver el contenido de buhocenter
-   Agregar productos a tu carrito
-   comprar los productos/servicios en tu carrito pagando con cryptomonedas.
-   recibir correos de bienvenida, tambien al completar una transaccion con exito.
-   recibir correos con nuevas ofertas y descuentos.
+   -Hacer login tradicional o federado (gmail y facebook).
+   -Administrar tu perfil de usuario
+   -Registrar direcciones dentro de EU para que recibas tus compras
+   -Administrar tus direcciones.
+   -Buscar miles de productos y servicios
+   -Buscar productos o servicios por catalogos
+   -Buscar catalogos por categorias
+   -seleccionar el idioma en que quieres ver el contenido de buhocenter
+   -Agregar productos a tu carrito
+   -comprar los productos/servicios en tu carrito pagando con cryptomonedas.
+   -recibir correos de bienvenida, tambien al completar una transaccion con exito.
+   -recibir correos con nuevas ofertas y descuentos.
    
 Como parte de nuestro equipo de administradores podras:
    
-   Gestionar usuarios.
-   agregar productos/servicios.
-   gestionar productos/servicios.
-   Definir el minimo de un producto en inventario
+   -Gestionar usuarios.
+   -agregar productos/servicios.
+   -gestionar productos/servicios.
+   -Definir el minimo de un producto en inventario
    
--------------------------
 
 ## imagenes de buhocenter
 
@@ -50,7 +48,6 @@ Como parte de nuestro equipo de administradores podras:
 
 ![buho 4](https://user-images.githubusercontent.com/44983658/82739518-31dea800-9d0e-11ea-9857-599181fa434c.PNG)
 
----------------------------
 
 ## instalacion y setup
 
@@ -82,7 +79,6 @@ En buhocenter frontend:
  
  y listo! si vamos a [localhost:8080/home] ya veremos la pagina inicial de buhocenter!
 
--------------------------
 
 ## API
 
