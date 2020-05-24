@@ -1,44 +1,43 @@
 # Ecommerce Buhocenter ![npm](https://img.shields.io/badge/node-v8.12.0-green) ![npm](https://img.shields.io/badge/vue-vXYZ-red) ![npm](https://img.shields.io/badge/version-1.0-blue) ![npm](https://img.shields.io/badge/postgresql-v.11or12-blue)
 
 ![Logo-completo](https://user-images.githubusercontent.com/44983658/82739421-64d46c00-9d0d-11ea-87ea-c8c1d27f2a21.png)
-
 ## Primera fase. version 1.0
 
 ## Find everything, buy anything
 
- Buhocenter es un nuevo comercio electronico que permite el pago con cryptomonedas. miles de productos al alcance de un click, encuentra el producto de tu necesidad en nuestros catalogos, te sientes perdido? no te proecupes! con nuestras categorias podras encontrar lo que necesites, desde tecnologia, hasta productos del hogar!.
+ Buhocenter es un nuevo comercio electrónico que permite el pago con cryptomonedas. miles de productos al alcance de un click, encuentra el producto de tu necesidad en nuestros catálogos, te sientes perdido? ¡no te preocupes! ¡con nuestras categorías podrás encontrar lo que necesites, desde tecnología, hasta productos del hogar!
  
  ## detalles
  
-  buhocenter esta hecho en nestjs en el backend y vuejs en el frontend, para la BD se usa postgresql.
+  buhocenter está hecho en nestjs en el backend y vuejs en el frontend, para la BD se usa postgresql.
   
  
 ## features
 
- Como cliente de Buhocenter podras:
+ Como cliente de Buhocenter podrás:
  
- 1. Hacer login tradicional o federado (gmail y facebook).
+ 1. Registrarse de manera tradicional o con tus cuentas de Gmail o Facebook.
  2. Administrar tu perfil de usuario
  3. Registrar direcciones dentro de EU para que recibas tus compras
  4. Administrar tus direcciones.
  5. Buscar miles de productos y servicios
- 6. Buscar productos o servicios por catalogos
- 7. Buscar catalogos por categorias
+ 6. Buscar productos o servicios por catálogos
+ 7. Buscar catálogos por categorías
  8. seleccionar el idioma en que quieres ver el contenido de buhocenter
  9. Agregar productos a tu carrito
  10. comprar los productos/servicios en tu carrito pagando con cryptomonedas.
- 11. recibir correos de bienvenida, tambien al completar una transaccion con exito.
+ 11. recibir correos de bienvenida, también al completar una transacción con éxito.
  12. recibir correos con nuevas ofertas y descuentos.
    
-Como parte de nuestro equipo de administradores podras:
+Como parte de nuestro equipo de administradores podrás:
    
  1. Gestionar usuarios.
  2. agregar productos/servicios.
  3. gestionar productos/servicios.
- 4. Definir el minimo de un producto en inventario
+ 4. Definir el mínimo de un producto en inventario
    
 
-## imagenes de buhocenter
+## imágenes de buhocenter
 
 ![buho 1](https://user-images.githubusercontent.com/44983658/82739440-82a1d100-9d0d-11ea-8522-e10486e998d4.PNG)
 
@@ -49,27 +48,36 @@ Como parte de nuestro equipo de administradores podras:
 ![buho 4](https://user-images.githubusercontent.com/44983658/82739518-31dea800-9d0e-11ea-9857-599181fa434c.PNG)
 
 
-## archvivo .env
+## archivo. env
 
-[este] es el formato del archivo .env , en el se declararan variables de entorno necesarias para la ejecuacion de
-la aplicacion. Por lo tanto, es de vital importancia llenarla antes de pasar a la instalacion
+[este] es el formato del archivo. env, en él se declararán variables de entorno necesarias para la ejecución de
+la aplicación. Por lo tanto, es de vital importancia llenarla antes de pasar a la instalación.
 
-## instalacion y setup
+El archivo. env para el backend debe estar ubicado en la carpeta buhocenter-backend, y el. end del front en buhocenter-frontend
 
-primero que nada necesitas [npm](https://npmjs.org) y [node.js](https://nodejs.org/es/)
+## instalación y setup
 
-clonar develop. Luego en  buhocenter backend:
+primero que nada, necesitas [npm](https://npmjs.org) y [node.js](https://nodejs.org/es/).
+Después, es necesario instalar nestjs de manera global
+
+ ```bash
+ $ npm install nestjs -g
+ ```
+
+clonar develop. Luego en buhocenter backend:
  ```bash
  $ npm install
  ```
-llenar el archivo .env (asegurar que la sinchronizacion este activa para que se creen las entidades automaticamente en postgresql):
+llenar el archivo. env (asegurar que la sincronización este activa para que se creen las entidades automáticamente en postgresql):
 
 ```bash
  $ npm run start:dev
  ```
- llenar la BD con los inserts que se encuentran [aqui](https://github.com/PandiyanCool/angular-clipboard-auto)
+ Crear una base de datos en postgresql llamada "buhocenter"
+ 
+ llenar la BD con los inserts que se encuentran [aquí](https://github.com/PandiyanCool/angular-clipboard-auto)
 
-Ya finalizamos con la instalacion de backend! ahora vamos con fronend.
+¡Ya finalizamos con la instalación de backend!  ahora vamos con fronend.
 
 En buhocenter frontend:
 
@@ -82,7 +90,7 @@ En buhocenter frontend:
  $ npm run serve
  ```
  
- y listo! si vamos a [localhost:8080/home] ya veremos la pagina inicial de buhocenter!
+ y listo! si vamos a [localhost:8080/home] ya veremos la página inicial de buhocenter!
 
 
 ## API
@@ -95,7 +103,7 @@ la pasarela de pago que se encarga de las transacciones es utrust.
 
 ![utrust](https://user-images.githubusercontent.com/44983658/82739619-dbbe3480-9d0e-11ea-980c-a043ec5ec2e0.jpg)
 
-Tambien usamos firebase para guardar cierta informacion del usuario
+También usamos firebase para guardar cierta información del usuario
 
 ![firebase](https://user-images.githubusercontent.com/44983658/82739665-69018900-9d0f-11ea-8317-5678d71a384e.png)
 
